@@ -1,3 +1,4 @@
+# Task 3: Password Generator
 import tkinter as tk
 from password_logic import generate_password, check_strength
 import pyperclip
