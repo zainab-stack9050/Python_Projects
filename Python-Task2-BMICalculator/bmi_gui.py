@@ -1,3 +1,4 @@
+# Task 2: BMI Calculator
 import tkinter as tk
 from bmi_logic import calculate_bmi, classify_bmi
 from bmi_database import init_db, save_record, get_user_history
