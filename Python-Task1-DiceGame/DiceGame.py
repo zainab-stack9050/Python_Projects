@@ -1,3 +1,4 @@
+# Task 1
 import math
 import random
 import sys
@@ -5,7 +6,7 @@ import time
 import tkinter as tk
 from tkinter import messagebox
 
-# Optional Windows audio support
+# Windows audio support
 try:
     import winsound
     HAS_SOUND = True
@@ -157,7 +158,7 @@ class PremiumDiceUI:
         self.draw_dice([1, 1])
 
     def setup_ui(self):
-        # Header Section
+        # Header 
         header = tk.Frame(self.root, bg=self.theme["bg"], padx=25, pady=15)
         header.pack(fill=tk.X)
 
